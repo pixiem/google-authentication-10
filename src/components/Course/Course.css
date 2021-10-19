@@ -1,0 +1,31 @@
+.image{
+    width: 10px;
+    
+}
+.course-image{
+    justify-content: center;
+    
+}
+.card-body{
+    text-align: left;
+}
+.butto{
+    
+    border: none;
+    background-color: #ff284f;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.butto:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #ff284f;
+}
+.hours{
+    padding: 5px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+}

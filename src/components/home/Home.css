@@ -1,0 +1,41 @@
+.main-body{
+    background-color: #ebedf1;
+}
+.main-container{
+    border-radius: 30px;
+    margin: 50px 100px;
+    background-color: white;
+  
+}
+.div-left{
+    margin: 20px;
+    
+    padding: 46px 37px 11px 24px;
+    background-color: #0076a9;
+    color: white;border-radius: 25px;
+    
+}
+.button{
+    background-color: ;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #ff284f ;
+}
+.div-right{
+    margin: 20px;
+    background-color: #0076a9;
+    padding: 50px;
+    border-radius: 25px;
+}
+.course-container{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
