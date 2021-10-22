@@ -1,32 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import Course from '../Course/Course';
-import Footer from '../Footer/Footer';
-import Headnav from '../navigation/Headnav';
-import ServicesCourse from '../servicesCourse/ServicesCourse';
-import "./Services.css"
+import Service from '../Service/Service';
 
 const Services = () => {
-    const [courses, setCourses] = useState([]);
+    const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('./serviceTwoadw.JSON')
+        fetch('./services.json')
             .then(res => res.json())
-            .then(data => setCourses(data))
+            .then(data => setServices(data))
+
+
     }, [])
+
+
     return (
-        <>
-            <Headnav></Headnav>
-            <div className="service-section" >
-                <h1>Our Top Services</h1>
-                <div className=" course-container">
-                    {
-                        courses.map(course => <ServicesCourse course={course}></ServicesCourse>)
-                    }
-                </div>
-
-
+        <div className=''>
+            <h1 className='text-center'>Treatments </h1>
+            <div className='row container m-auto'>
+                {
+                    services.map(service => <Service key={service.id} service={service}></Service>)
+                }
             </div>
-            <Footer></Footer>
-        </>
+
+        </div>
     );
 };
 

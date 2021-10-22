@@ -1,21 +1,6 @@
-.footer-section{
+.footer{
     background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-   
 }
-.footer-one{
-    margin-left: 20px;
-    color:white;
-}
-.footer-section span {
+.footer p {
     color: white;
-    
-}
-.horizontal-line{
-    color: white;
-}
-.app-link{
-    margin-bottom: 30px;
 }

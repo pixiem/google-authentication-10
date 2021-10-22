@@ -1,42 +1,20 @@
 import React from 'react';
-import { Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
+import { Link } from 'react-router-dom';
+import './Header.css'
 const Header = () => {
-  return (
-    <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 mx-5 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <img
-              src="./pngegg.png"
-              width="60"
-              height="60"
-              className="d-inline-block align-top "
-              alt="React Bootstrap logo"
-            />
-            <Nav.Link className="fs-4 mx-3" href="#action1">HOME</Nav.Link>
-            <Nav.Link className="fs-4  mx-3" href="#action2">SERVICES</Nav.Link>
-            <Nav.Link className="fs-4  mx-3" href="#action2">ABOUT</Nav.Link>
-            <Nav.Link className="fs-4  mx-3" href="#action2">CONTACT</Nav.Link>
+    return (
+        <div>
+            <div className='header row d-flex align-item-center '>
+                <div className='content col-md-6  '>
+                    <h1 className='mb-3'>Health <span>Point</span></h1>
+                    <h4 className='mb-3'>Highly Experienced Doctors <br /> In Your City </h4>
 
+                    <Link className='abutUs' to='/about'>About Us</Link>
+                </div>
+            </div>
 
-          </Nav>
-
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-
-
-  );
+        </div>
+    );
 };
 
 export default Header;
