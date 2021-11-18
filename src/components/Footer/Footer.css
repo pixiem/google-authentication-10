@@ -1,6 +1,28 @@
-.footer{
+.footer-section{
+    text-align: center;
     background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+   
 }
-.footer p {
+.footer-one{
+    margin-left: 20px;
+    color:white;
+}
+.footer-section span {
+    color: white;
+    
+}
+.horizontal-line{
     color: white;
 }
+.app-link{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600) {
+   .footer-section{
+       
+   }
+  }

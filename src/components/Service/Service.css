@@ -1,8 +1,8 @@
 .detailBtn{
     text-decoration: none;
-    color: black;
-    background-color: orange;
-    padding: 5px 10px;
-    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 8px 13px;
+    border-radius: 8px;
    font-weight: 700;
 }
